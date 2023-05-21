@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="space_invaders_play_style.css">
+    <title>Space Invader</title>
+</head>
+<body>
+    <h1>SPACE INVADERS!</h1>
+    <p>Use as setas de navegação e a barra de espaço!</p>
+    <div style="position: relative;">
+        <p class="p"><span>Score:</span> <span id="scoreElement">0</span></p>
+        <iframe src="silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
+        <audio controls autoplay style="display: none;">
+            <source src="./img/invader.mp3" type="audio/mpeg" />
+            <source src="./img/invader.mp3" type="audio/ogg" />
+            <source src="./img/invader.mp3" type="audio/wav" />
+        </audio>
+        <div id="ending">GAME OVER</div>
+        <canvas></canvas>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

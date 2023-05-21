@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+    <title>Principal</title>
+</head>
+<body>
+    <header>
+        <nav class="nav" id="nav">
+            <img src="img/highscore_fundo_preto.png" alt="" class="nav_logo">
+
+            <div class="input-group">
+                <input type="search" placeholder="Pesquisar" id="input-search">
+                <span class="input-group-btn">
+            </div>
+
+            <img src="img/avatar.png" alt="" class="nav_avatar">
+        </nav>
+        <div class="banner" id="banner">
+            <div class="banner_content">
+                <h1 class="banner_title">HIGHSCORE</h1>
+                <div class="banner_buttons">
+                    <button class="banner_button"><a id="game_link" href="#">Jogar</a> </button>
+                    <button class="banner_button"><a id="history_link"  href="#">Saber mais</a></button>
+                </div>
+                <div class="banner_discription">
+                    <p>Aproveite nosso catálogo de jogos clássicos!</p>
+                </div>
+            </div>
+            <div class="banner_fade_bottom">
+
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="row">
+            <h2>Primeira linha</h2>
+            <div class="row_posters">
+                <img src="img/posters/doodle_jump3.jpg" alt="" class="row_poster" onclick="trocaBannerDoodleJump()">
+                <img src="img/posters/flappy_bird3.jpg" alt="" class="row_poster" onclick="trocaBannerFlappyBird()">
+                <img src="img/posters/pong3.png" alt="" class="row_poster" onclick="trocaBannerPong()">
+                <img src="img/posters/snake3.png" alt="" class="row_poster" onclick="trocaBannerSnake()">
+                <img src="img/posters/space_invaders2.jpg" alt="" class="row_poster" onclick="trocaBannerSpaceInvaders()">
+                <img src="img/posters/tetris2.png" alt="" class="row_poster" onclick="trocaBannerTetris()">
+                <img src="img/posters/fruit_ninja3.jpg" alt="" class="row_poster" onclick="trocaBannerFruitNinja()">
+            </div>
+        </div>
+        <div class="row">
+            <h2>Categoria 2</h2>
+            <div class="row_posters">
+                <a href="doodle_jump/play/doodle_jump_play.html"><img src="img/posters/doodle_jump1.jpg" alt="" class="row_poster"></a>
+                <a href="flappy_bird/play/flappy_bird_play.html"><img src="img/posters/flappy_bird1.jpg" alt="" class="row_poster"></a>
+                <a href="pong/play/pong_play.html"><img src="img/posters/pong1.jpg" alt="" class="row_poster"></a>
+                <a href="snake/play/snake.html"><img src="img/posters/snake1.jpg" alt="" class="row_poster"></a>
+                <a href="space_invaders/play/index.html"><img src="img/posters/space_invaders1.jpg" alt="" class="row_poster"></a>
+                <a href="tetris/play/index.html"><img src="img/posters/tetris1.jpg" alt="" class="row_poster"></a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
